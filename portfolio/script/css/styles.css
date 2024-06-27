@@ -268,6 +268,7 @@ canvas.particles-js-canvas-el{
 }
 .skills__subtitle{
   margin-bottom: var(--mb-2);
+  text-align: justify;
 }
 .skills__text{
   margin-bottom: var(--mb-4);
