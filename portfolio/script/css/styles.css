@@ -271,7 +271,6 @@ canvas.particles-js-canvas-el{
 }
 .skills__text{
   margin-bottom: var(--mb-4);
-  text-align: justify;
 }
 .skills__data{
   display: flex;
