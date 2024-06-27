@@ -95,7 +95,7 @@ canvas.particles-js-canvas-el{
   color: var(--first-color);
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
-  text-align: center;
+  text-align: center; 
 }
 .section-title::after{
   position: absolute;
@@ -271,6 +271,7 @@ canvas.particles-js-canvas-el{
 }
 .skills__text{
   margin-bottom: var(--mb-4);
+  text-align: justify;
 }
 .skills__data{
   display: flex;
