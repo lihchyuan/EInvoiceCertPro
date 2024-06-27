@@ -66,7 +66,7 @@
                     <div>
                         <h2 class="about__subtitle">E-Invoice Digital Certificate</h2>
                         <p class="about__text">
-As the e-Invoice mandate in Malaysia rapidly approaches, it is essential for businesses to understand the digital signature process. According to guidelines from the Inland Revenue Board of Malaysia (IRBM), also known as Lembaga Hasil Dalam Negeri Malaysia (LHDNM), each invoice submission requires a digital signature. Whether submitting a single invoice or a batch, every individual invoice must be digitally signed to comply with regulations.</p>
+As the e-Invoice mandate in Malaysia rapidly approaches, it is essential for businesses to understand the digital signature process. According to guidelines from the Inland Revenue Board of Malaysia (IRBM), also known as Lembaga Hasil Dalam Negeri Malaysia (LHDNM), each invoice submission requires a digital signature. Whether submitting a single invoice or a batch, every individual invoice must be digitally signed to comply with regulations.</p><br>
 
 <h2 class="about__subtitle"> Let’s explore the digital signature process in more detail: </h2>
 
@@ -87,7 +87,8 @@ A digital signature consists of two key components: a private key and a public k
                         
 <h3 class="about__subtitle">The Role of Certificate Authorities (CAs):</h3>
 
-Certificate Authorities (CAs) are crucial in validating digital signatures by providing a trusted framework for verifying the authenticity and legitimacy of public keys associated with digital certificates. Here's how CAs facilitate the validation process:
+<p class="about__text">Certificate Authorities (CAs) are crucial in validating digital signatures by providing a trusted framework for verifying the authenticity and legitimacy of public keys associated with digital certificates. Here's how CAs facilitate the validation process:</p>
+                        
 <ol>
 <li>Issuance of Digital Certificates: CAs issue digital certificates, electronic credentials that bind an individual or entity's identity to a public key.
 <li>Verification of Identity: CAs rigorously verify the identity of the requesting entity before issuing a digital certificate.
@@ -96,18 +97,20 @@ Certificate Authorities (CAs) are crucial in validating digital signatures by pr
 <li>Validation of Digital Signatures: Recipients extract the digital signature and the signer's digital certificate to verify authenticity using the CA's public key.
 <li>Trust Chain Verification: Recipients can recursively validate the certificate chain to ensure each certificate is valid and issued by a trusted CA.
 </ol>
+                        
 <h3 class="about__subtitle">How it Works for e-Invoicing in Malaysia:</h3>
-<ul>
+<ol>
 <li>Generating e-Invoices: Taxpayers or e-Invoice intermediaries generate e-Invoices in XML or JSON format.
 <li>Hash Calculation: Using the SHA 256 algorithm, calculate the hash value of the e-Invoice.
 <li>Digital Signature: Digitally sign the hash of the invoice with the digital certificate.
 <li>Invoice Submission: Include the signature value in the e-Invoice XML/JSON and submit it to IRBM/LHDNM APIs.
-</ul> 
+</ol> 
+                        
 <h3 class="about__subtitle">Validating Digital Signatures by IRBM/LHDNM:</h3>
-<ul>
+<ol>
 <li>Decryption and Identification: IRBM decrypts the signature value using the taxpayer's public key and identifies the hash value.</li>
 <li>Hash Comparison: IRBM calculates the hash of the e-Invoice XML and compares it with the decrypted hash value. If they match, the invoice is considered valid; otherwise, it is deemed invalid.</li>
-</ul>                      
+</ol>                      
                     </div>                                   
                 </div>
             </section>
@@ -122,13 +125,13 @@ Certificate Authorities (CAs) are crucial in validating digital signatures by pr
                         
 
 <h3 class="skills__subtitle">Executive Summary</h3>
-<p class="skills__text">In response to the increasing need for secure and compliant digital transactions with Lembaga Hasil Dalam Negeri (LHDN) / Inland Revenue Board (IRB) e-Invoice systems, we propose a comprehensive service offering digital certificates. Our service aims to provide businesses with the necessary tools to authenticate and secure their e-Invoice submissions, ensuring compliance with regulatory requirements.
+<p class="skills__text">In response to the increasing need for secure and compliant digital transactions with Lembaga Hasil Dalam Negeri (LHDN) / Inland Revenue Board (IRB) e-Invoice systems, we propose a comprehensive service offering digital certificates. Our service aims to provide businesses with the necessary tools to authenticate and secure their e-Invoice submissions, ensuring compliance with regulatory requirements.</p>
 
 <h3 class="skills__subtitle">Overview</h3>
-Specializes in providing software solutions that enhance business operations. We have a proven track record of delivering reliable and efficient services to our clients. Our new venture into providing digital certificates for LHDN/IRB e-Invoice is a natural extension of our commitment to supporting businesses in their digital transformation.
+<p class="skills__text">Specializes in providing software solutions that enhance business operations. We have a proven track record of delivering reliable and efficient services to our clients. Our new venture into providing digital certificates for LHDN/IRB e-Invoice is a natural extension of our commitment to supporting businesses in their digital transformation.</p>
 
 <h3 class="skills__subtitle">Market Need</h3>
-The implementation of the LHDN/IRB e-Invoice system requires businesses to authenticate their digital transactions securely. Digital certificates are essential for ensuring the authenticity and integrity of electronic documents. As businesses transition to this new system, the demand for trusted digital certificates will rise significantly.
+<p class="skills__text">The implementation of the LHDN/IRB e-Invoice system requires businesses to authenticate their digital transactions securely. Digital certificates are essential for ensuring the authenticity and integrity of electronic documents. As businesses transition to this new system, the demand for trusted digital certificates will rise significantly.</p>
 
 <h3 class="skills__subtitle">Proposed Services</h3>
 
